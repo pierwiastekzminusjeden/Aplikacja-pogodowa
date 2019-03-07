@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang= "pl">
+<head>
+	<meta charset= "utf-8">
+	<title>Dane pogodowe</title>
+	<link type="text/css" rel="stylesheet" href="index.css">
+	<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+	<script type="text/javascript" src="rest.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1>Dane pogodowe</h1>
+	</header>
+	<nav>
+		<ul>
+			<li onclick="new_data_offline()" id="data_id_offline">Dodaj dane OFFLINE</li>
+			<li onclick="list_data()" id = "list_id">Pobierz dane</li>
+			<li onclick="new_data()" id="data_id">Dodaj dane</li>
+			<li onclick="analyse_data()" id="analyse_id">Analiza danych</li>
+			<li onclick="synchronize_data()" id="sync_id">Synchronizacja</li>
+			<li onclick="log_form()" id="log_id">Zaloguj</li>
+			<li onclick="logout()" id="log_out_id">Wyloguj</li>
+			<li onclick="reg_form()" id="sign_id">Zarejestruj</li>
+			<li onclick="doc()" id="doc">Dokumentacja</li>
+		</ul>
+	</nav>
+		<div id="data"></div>
+		<footer>
+			Krystian Molenda, WFiIS, IS - Strona zrealizowana na zajęcia z przedmiotu Techniki Internetowe
+		</footer>
+</body>
+
+</html>
